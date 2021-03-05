@@ -13,6 +13,7 @@ public class CustomAnnotationUsage
         this.item = item;
     }
 
+    @CustomAnnotation(message = "custom value field", cost=100)
     public String getType()
     {
         return type;
